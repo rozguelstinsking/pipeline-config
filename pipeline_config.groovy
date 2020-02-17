@@ -3,6 +3,6 @@ libraries{
     	sonarqube
 	gradle{
 		message= "lalala"
-		version= 1
+		version= 4
 	}
 }
