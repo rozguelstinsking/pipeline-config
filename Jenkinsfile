@@ -1,3 +1,3 @@
 unit_test()
-build()
+build("my param")
 static_code_analysis()
