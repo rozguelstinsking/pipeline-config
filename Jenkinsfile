@@ -1,4 +1,4 @@
 unit_test()
-build()
+build pro
 static_code_analysis()
 sonar_qa()
