@@ -1,3 +1,3 @@
 libraries{
-    	gradle
+    	maven
 }
