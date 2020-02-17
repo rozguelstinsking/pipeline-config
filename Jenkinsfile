@@ -1,6 +1,3 @@
 unit_test()
-build(){
-
-	print('HELLO')
-}
+build()
 static_code_analysis()
