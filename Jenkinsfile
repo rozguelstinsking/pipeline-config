@@ -1,4 +1,4 @@
 unit_test()
-build("ahora si")
+build()
 static_code_analysis()
 sonar_qa()
