@@ -5,4 +5,5 @@ libraries{
 		message= "lalala"
 		version= 4
 	}
+	kubernetes
 }
