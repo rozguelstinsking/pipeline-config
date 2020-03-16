@@ -54,5 +54,5 @@ template_methods{
     functional_test */
 }
 
-steps
+/*steps*/
 
