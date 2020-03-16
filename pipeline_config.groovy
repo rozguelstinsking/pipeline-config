@@ -1,13 +1,3 @@
-libraries{
-	merge = true
-    	sonarqube
-	gradle{
-		message= "lalala"
-		version= 4
-	}
-	kubernetes
-}
-
 
 
 allow_scm_jenkinsfile = false
@@ -40,3 +30,26 @@ libraries{
     }
 }
 */
+
+libraries{
+	merge = true
+    	sonarqube
+	gradle{
+		merge=true
+		message= "lalala"
+		version= 4
+	}
+	kubernetes
+}
+
+template_methods{
+    unit_test
+    static_code_analysis
+    build
+    scan_container_image
+    /* UAT
+    penetration_test
+    accessibility_compliance_test
+    performance_test
+    functional_test */
+}
