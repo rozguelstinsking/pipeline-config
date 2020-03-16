@@ -34,7 +34,7 @@ libraries{
 libraries{
 	merge = true
     	sonarqube
-	gradle{
+	maven{
 		merge=true
 		message= "lalala"
 		version= 4
