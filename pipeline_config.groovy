@@ -5,6 +5,7 @@ allow_scm_jenkinsfile = false
 skip_default_checkout = false
 // define application environment objects
 application_environments{
+	override=true
     dev{
         long_name = "Development"
     }
